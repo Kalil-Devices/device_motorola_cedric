@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository":  "GZR-Kernels/Optimus_Drunk_Potter",
+    "repository":  "Motorola-Common/android_kernel_motorola_msm8953-common",
     "target_path": "kernel/motorola/msm8953",
-    "branch": "9.0"
+    "branch": "lineage-15.1-64"
   },
   {
     "remote": "github",
@@ -16,12 +16,6 @@
     "repository": "PixelExperience/packages_resources_MotoActions",
     "target_path": "packages/resources/MotoActions",
     "branch": "oreo-mr1"
-  },
-  {
-    "repository": "jhenrique09/prebuilts_clang_host_linux-x86_7.0-DragonTC",
-    "target_path": "prebuilts/clang/host/linux-x86/7.0-DragonTC",
-    "branch": "master",
-    "remote": "github"
   }
 ]
 
