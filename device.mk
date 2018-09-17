@@ -202,7 +202,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1-impl-qti \
     android.hardware.gnss@1.1-service-qti \
     libqsap_sdk \
-    libqsap_shim
+    libqsap_shim \
+    libloc_core \
+    libgps.utils \
+    liblocation_api
 
 # health
 PRODUCT_PACKAGES += \
