@@ -39,6 +39,9 @@ LOCAL_HEADER_LIBRARIES := \
 
 LOCAL_CFLAGS += $(GNSS_CFLAGS)
 
+LOCAL_CPPFLAGS += \
+     -Wno-error=reorder
+
 LOCAL_PRELINK_MODULE := false
 
 include $(BUILD_SHARED_LIBRARY)
