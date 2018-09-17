@@ -35,7 +35,6 @@
 #include <LocationAPI.h>
 #include <Agps.h>
 #include <SystemStatus.h>
-#include <XtraSystemStatusObserver.h>
 
 #define MAX_URL_LEN 256
 #define NMEA_SENTENCE_MAX_LENGTH 200
@@ -149,7 +148,6 @@ class GnssAdapter : public LocAdapterBase {
     /* === SystemStatus ===================================================================== */
     SystemStatus* mSystemStatus;
     std::string mServerUrl;
-    XtraSystemStatusObserver mXtraObserver;
 
     /*==== CONVERSION ===================================================================*/
     static void convertOptions(LocPosMode& out, const LocationOptions& options);
@@ -238,7 +236,6 @@ public:
     void setConfigCommand();
     uint32_t* gnssUpdateConfigCommand(GnssConfig config);
     uint32_t gnssDeleteAidingDataCommand(GnssAidingData& data);
-    void gnssUpdateXtraThrottleCommand(const bool enabled);
 
     void initDefaultAgpsCommand();
     void initAgpsCommand(const AgpsCbInfo& cbInfo);
