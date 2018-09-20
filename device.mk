@@ -303,7 +303,9 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-service-qti
+    android.hardware.power@1.1-service-qti \
+    android.hardware.power@1.0-service \
+    android.hardware.power@1.0-impl
 
 # Qualcomm
 PRODUCT_COPY_FILES += \
