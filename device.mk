@@ -364,9 +364,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ims-ext-common
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
-
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:system/etc/sensors/hals.conf \
@@ -388,7 +385,8 @@ PRODUCT_PACKAGES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    telephony-ext
+    telephony-ext \
+    qti-telephony-common
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
