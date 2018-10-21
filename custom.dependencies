@@ -1,21 +1,15 @@
 [
   {
     "remote": "github",
-    "repository":  "Motorola-Common/android_kernel_motorola_msm8953-common",
+    "repository":  "Kalil-Devices/android_kernel_motorola_msm8953-common",
     "target_path": "kernel/motorola/msm8953",
-    "branch": "lineage-15.1-64"
+    "branch": "caf-9.0"
   },
   {
     "remote": "github",
-    "repository": "BigTopKrazies/vendor_motorola_potter",
+    "repository": "Kalil-Devices/vendor_motorola_cedric",
     "target_path": "vendor/motorola/potter",
-    "branch": "9.0"
-  },
-  {
-    "remote": "github",
-    "repository": "PixelExperience/packages_resources_MotoActions",
-    "target_path": "packages/resources/MotoActions",
-    "branch": "oreo-mr1"
+    "branch": "caf-9.0"
   }
 ]
 
