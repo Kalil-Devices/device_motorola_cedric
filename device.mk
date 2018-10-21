@@ -341,6 +341,15 @@ PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/powerhint.xml:system/etc/powerhint.xml \
      $(LOCAL_PATH)/configs/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml
 
+# Performance frameworks
+PRODUCT_PACKAGES += \
+    QPerformance \
+    UxPerformance
+
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+
 # Releasetools script
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/check_features.sh:system/vendor/bin/check_features.sh
