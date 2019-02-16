@@ -225,12 +225,6 @@ MOT_SENSOR_HUB_FEATURE_PEDO := true
 MOT_SENSOR_HUB_FEATURE_LA := true
 MOT_SENSOR_HUB_FEATURE_GR := true
 
-# Shims
-TARGET_LD_SHIM_LIBS := \
-    /system/vendor/bin/adspd|libshim_adsp.so \
-    /system/vendor/lib64/libmdmcutback.so|libqsap_shim.so \
-    /system/lib/libjustshoot.so|libjustshoot_shim.so
-
 # Thermal
 USE_DEVICE_SPECIFIC_THERMAL := true
 
